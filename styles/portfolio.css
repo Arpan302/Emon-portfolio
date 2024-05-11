@@ -1,6 +1,7 @@
 * {
 
     font-family: 'Open Sans', sans-serif;
+   
 }
 
 .text-primary {
@@ -91,17 +92,22 @@ main{
 .about{
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px, 150px;
 
 }
+section{
+    margin-top: 130px;
+}
 /* section-title */
 .section-title{
-   
-    margin-bottom: 30px;
+   margin-top: 80px;
+    margin-bottom: 50px;
    font-weight: 700;
    font-size: 35px;
+   text-align: center;
 
 }
 /* section-des */
@@ -117,6 +123,7 @@ main{
     justify-content: space-around;
 }
 .info-title{
+    font-weight: 700;
     font-size: 20px;
     color: #4a494b;
 }
@@ -124,3 +131,94 @@ main{
     font-size: 20px;
     color: #000000;
 }
+/* what i do   */
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50 px #333135;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+  
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.skill-des{
+    color: #3e3030;
+}
+/* Resume-style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #534f56;
+}
+ 
+.resume-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #333135;
+    margin-bottom: 10px;
+
+}
+.resume-sub{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.resume-des{
+    color: #757575;
+    font-size: 15px;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px , 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+
+}
+
+.contact input[type="text"],input[type="Email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding-left: 18px,30px;
+}
+
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
+
+
