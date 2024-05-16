@@ -10,21 +10,24 @@
 
 .btn-primary {
     color: wheat;
-    font-weight: 700px;
-    font-size: 20px;
-    height: 64px;
+    font-weight: 500px;
+    font-size: 15px;
+    height: 50px;
     border: 0;
-    padding: 18px 35px;
-    border-radius: 20px;
+    padding: 5px 25px;
+    border-radius: 5px;
     color: rgb(0, 0, 0);
     background-color: #B272C8 ;
-    ;
+
 }
 .header{
-    background-color: #402568;
+    background-color: #B272C8;
     background-image: url('../images/pngtree-purple-pattern-abstract-line-mandala-gradient-background-image_739253.jpg');
     background-repeat: no-repeat;
+   background-size: cover;
    background-size: 100%;
+
+   
 }
 
 /* header navigation title */
@@ -32,6 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 50px, 200px;
+}
 
 .nav-header {
     font-weight: 800px;
@@ -50,34 +54,39 @@ nav li {
     margin-right: 50px;
    
 }
-.img{
-    margin-right: 700px;
-    margin-left: 1px;
-}
+
 /* banner styles */
 
 
 .banner{
-    margin: 0 200px;
-    align-items: center;
     display: flex;
+  gap: 200px;
+ 
 }
+.img{
+    margin-top: 25px;
+    padding: 0 100px;
+  
+ }
 
 .banner-sub{
     font-weight: 400px;
-    font-size: 45px;
+    font-size: 30px;
+   
+    
 }
 
 .banner-title{
     font-weight: 700;
-    font-size: 85px;
+    font-size: 60px;
     margin-bottom: 20px;
-
+   
 }
 .banner-dis{
     color: rgb(0, 0, 0);
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: left;
 
 }
 /* main */
